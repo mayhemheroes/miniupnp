@@ -1,6 +1,6 @@
-project: rnshah9/miniupnp
+project: miniupnp
 target: testminixml
 
 cmds:
-  - cmd: /repo/miniupnpc/build/testminixml @@
+  - cmd: /repo/miniupnpc/build/testminixml test.xml
     filepath: test.xml
