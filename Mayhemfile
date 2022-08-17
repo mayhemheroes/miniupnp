@@ -1,5 +1,7 @@
 project: miniupnp
 target: testminixml
+testsuite:
+  - file://miniupnpc/testdesc/new_LiveBox_desc.xml
 
 cmds:
   - cmd: /testminixml @@
